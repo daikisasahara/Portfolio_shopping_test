@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/index.css">
+	<title>Amazones | ログイン画面</title>
+</head>
+<body>
+	
+	<div class="all-wrap">
+		
+		
+		<h1>Amazones</h1>
+		
+		
+		<main>
+			<div class="login-account-box">
+				
+				<h2>会員の方はこちら</h2>
+				
+				<br>
+				
+				<ul>
+					<li class="list-inside1">パスワードを忘れた方は<a href="update_jsp/update_password.jsp">こちら</a></li>
+					<li class="list-inside1">その他、ログインに関する問い合わせは<a href="update_jsp/update_login_user_top.jsp">こちら</a></li>
+				</ul>
+				
+				<br>
+				
+				<form action="index_controller" method="post" autocomplete="off">
+					<table>
+						<tr>
+							<td><label>メールアドレス( ID )：</label></td>
+							
+							<td>
+								<label>
+									<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+								</label>
+							</td>
+						</tr>
+						
+						<tr>
+							<td><label>パスワード：</label></td>
+							
+							<td>
+								<label>
+									<input type="password" name="pass" pattern="^[a-zA-Z0-9.?/-]{8,24}$" required>
+								</label>
+							</td>
+						</tr>
+					</table>
+					
+					<p><button type="submit">LOGIN</button></p>
+				</form>	
+			</div>
+		
+		<br><hr><br>
+		
+			<div class="new-account-box">
+				
+				<h2>新規会員登録</h2>
+				
+				<br>
+				
+				<p>お客様のメールアドレス( ID )と、パスワードを入力し送信ボタンを押してください。</p>
+				
+				<p>パスワードは、以下の条件に従って設定してください。</p>
+					<ol>
+						<li class="list-inside2">英数字( 大文字・小文字 )、 ピリオド( . )、スラッシュ( / )、クエスチョン( ? )、ハイフン( - ) ) 使用可能</li>
+						<li class="list-inside2">文字数は、8文字以上24文字以下</li>
+					</ol>
+					
+					<br>
+					
+					<form action="newAccount_controller" method="post" autocomplete="off">
+						<table>
+							<tr>
+								<td><label>メールアドレス( ID )：</label></td>
+								
+								<td>
+									<label>
+										<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="tarou_yamada@aaa.jp" required>
+									</label>
+								</td>
+							</tr>
+							
+							<tr>
+								<td><label>パスワード：</label></td>
+								
+								<td>
+									<label>
+										<input type="password" name="pass" pattern="^[a-zA-Z0-9.?/-]{8,24}$" placeholder="8文字以上24文字以下" required>
+									</label>
+								</td>
+							</tr>
+							
+							<tr>
+								<td><label>氏名：</label></td>
+								
+								<td>
+									<label>
+										<input type="text" name="name" pattern="^[ぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠]*$" placeholder="山田太郎" required>
+									</label>
+								</td>
+							</tr>
+							
+							<tr>
+								<td><label>住所：</label></td>
+								
+								<td>
+									<label>
+										<input type="text" name="address" pattern="^[0-9ぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠]*$" placeholder="千葉県浦安市舞浜1-1" required>
+									</label>
+								</td>
+							</tr>
+						</table>
+						
+						<p><button type="submit">LOGIN</button></p>
+					</form>
+			</div>
+		</main>
+		
+		<br>
+		
+		<footer>
+	        <small>Copyright(C) 1998-2023 Amazones Co.,Ltd.</small>
+	    </footer>
+		
+		
+		
+	</div>
+</body>
+</html>

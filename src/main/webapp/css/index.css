@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+
+
+.all-wrap{
+    margin: 0 auto 0 auto ;
+    width: 100% ;
+}
+
+
+
+
+.list-inside1{
+	text-indent: 1em ;
+	list-style-position: inside ;
+	
+}
+
+
+
+
+.list-inside2{
+	text-indent: 1em ;
+	list-style-position: inside ;
+}
+
+
+
+
+h1{
+	color : rgba(254, 188, 33, 1) ;
+	width: 100% ;
+	background-color: black ;
+	padding : 5px ;
+}
+
+
+
+
+h1 a{
+	color : rgba(254, 188, 33, 1) ;
+	text-decoration: none ;
+}
+
+
+
+
+h1 a:hover{
+	text-shadow: 1px 2px 2px rgba(109, 163, 255, 1) ;
+	transition : 0.5s ;
+	color : rgba(255, 150, 0, 1) ;
+}
+
+
+
+
+.login-error p{
+	padding : 10px ;
+	text-align: center ;
+}
+
+
+
+
+main{
+	padding : 5px ;
+	margin : 0 auto 0 auto ;
+	width : 100% ;
+}
+
+
+
+
+footer{
+    color: black ;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+
+
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    font-family: selif ;
+}
+
+
+
+
+.all-wrap{
+	width : 100% ;
+    margin: 0 auto 0 auto;
+}
+
+
+
+
+header{
+	width: 100% ;
+	background-color: black ;
+	padding : 5px ;
+}
+header li , header .user-menu a{
+	font-weight: bold ;
+	color : white ;
+}
+header button{
+	width : 4em ;
+}
+
+
+
+
+h1 a{
+	color : rgba(254, 188, 33, 1) ;
+	text-decoration: none ;
+}
+h1 a:hover{
+	text-shadow: 1px 2px 2px rgba(109, 163, 255, 1) ;
+	transition : 0.5s ;
+	color : rgba(255, 150, 0, 1) ;
+}
+
+
+
+
+.user-menu ul{
+	display : flex ;
+	justify-content: space-around ;
+}
+.user-menu li{
+	font-size: 150% ;
+	display : block ;
+}
+.user-menu a{
+	text-decoration : none ;
+}
+.user-menu a:hover{
+	transition : 0.5s ;
+	color : rgba(254, 188, 33, 1) ;
+}
+
+
+
+
+nav ul{
+	display : flex ;
+	justify-content: space-around ;
+}
+nav li{
+	font-size: 150% ;
+    width: calc( 100% / 7 ) ;
+    text-align: center;
+	display : block ;
+}
+nav a{
+	width: calc( 100% / 7 ) ;
+	color : rgba(129, 243, 255, 1) ;
+	text-decoration : none ;
+}
+nav a:hover{
+    font-weight: bold;
+    transition : 0.5s ;
+	color : rgba(254, 188, 33, 1) ;
+}
+
+
+
+
+.main-visual{
+	width : 95% ;
+	margin: 0 auto 0 auto ;
+}
+.main-visual a{
+	text-decoration : none ;
+}
+.main-visual img{
+	vertical-align: bottom ;
+	width : 100% ;
+}
+
+
+
+
+main{
+	background-color: white ;
+}
+main ul{
+	display : flex ;
+}
+main li{
+	display : block ;
+}
+
+
+
+
+table{
+	margin: 0 auto 0 auto ;
+	width: 50% ;
+}
+table button{
+	width: 8em ;
+}
+
+
+
+
+.category-top-page{
+	padding : 10px ;
+}
+
+
+
+
+.my-cart h2 , .my-cart p , .check , .pay-method p , .total-price , .pay-finish{
+	padding : 10px ;
+	text-align : center ;
+}
+
+
+
+
+.pay-method table td{
+	padding : 5px ;
+}
+
+
+
+
+.product-page{
+	padding: 15px ;
+}
+.product-page button{
+	margin : 10px ;
+}
+
+
+
+
+.product-list ul{
+	display: flex ;
+	justify-content: space-around ;
+}
+.product-list li{
+	display : block ;
+}
+
+
+
+
+.history h2 , .history p{
+	padding : 10px ;
+	text-align : center ;
+}
+
+
+
+
+.result-key-word p{
+	padding : 10px ;
+	text-align : center ;
+}
+
+
+
+
+.picture{
+	width : 95% ;
+	margin: 0 auto 0 auto ;
+}
+.picture img{
+	vertical-align: bottom ;
+	width : 100% ;
+}
+
+
+
+
+footer{
+    color: black ;
+}
+
+
+
+
+
